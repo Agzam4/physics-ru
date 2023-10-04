@@ -12,7 +12,7 @@
   <meta name="twitter:title" content="Physics Notes">
   <meta name="twitter:description" content="Interactive notes for algebra based physics.">
 
-  <title>Forces</title>
+  <title>Силы</title>
   <link rel="shortcut icon" href="../../../media/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" type="text/css" href="../../../lib/katex/katex.min.css">
   <script src="../../../lib/katex/katex.min.js"></script>
@@ -23,13 +23,13 @@
 <body>
   <header>
     <h1>
-      <a href="../../../">Forces</a>
+      <a href="../../../">Силы</a>
     </h1>
   </header>
 
   <article>
     <p>
-      Free body diagrams are a technique that helps visualize the force vectors used to solve Newton's second law.
+        Чертежи свободного тела - это метод, который помогает визуализировать векторы сил, используемые для решения второго закона Ньютона.
     </p>
     <div class="definition">
       <svg class='center' viewBox="0 0 500 350">
@@ -90,24 +90,24 @@
         </g>
       </svg>
       <p>
-        A <strong>free body diagram</strong> shows all the force vectors on an object.
-        Mass is typically written inside a box, with force vectors pointed away from the box.
+        Чертеж <strong> свободного тела</strong> показывает все векторы силы, действующие на объект.
+        Масса обычно записывается внутри квадратика, при этом векторы силы направлены в сторону от квадратика.
       </p>
     </div>
 
     <div class='example'>
-      <strong>Example:</strong> Draw a free body diagram for a 83 kg person holding onto a rope in a game of "Tug of war". The rope is pulling them with a force of 520 N left. The person's feet are countering that with 540 N to the right.
+      <strong>Пример:</strong> Начерти свободную схему тела человека весом 83 кг, держащегося за веревку в игре "Перетягивание каната". Веревка толкает их с оставшимся усилием в 520 Н. Ноги человека противодействуют этому с наклоном на 540 Н вправо.
       <details>
-        <summary>solution</summary>
+        <summary>решение</summary>
         <svg class='center' width="300" height="120" viewBox="-15 0 285 120">
           <g transform='translate(100 20) rotate(0)'>
             <rect x="0" y="0" width="80" height="80" stroke='black' stroke-width='2' fill="#f65" />
-            <text x="40" y="40" fill="black" text-anchor="middle" dominant-baseline="middle" font-size='20px'>83 kg</text>
+            <text x="40" y="40" fill="black" text-anchor="middle" dominant-baseline="middle" font-size='20px'>83 кг</text>
           </g>
           <use xlink:href="#vector" transform='translate(100 60) rotate(90)' />
-          <text x="35" y="53" fill="black">520 N</text>
+          <text x="35" y="53" fill="black">520 Н</text>
           <use xlink:href="#vector" transform='translate(180 60) rotate(-90)' />
-          <text x="200" y="53" fill="black">540 N</text>
+          <text x="200" y="53" fill="black">540 Н</text>
         </svg>
       </details>
     </div>
@@ -116,22 +116,22 @@
       <svg class='center' width="300" height="120" viewBox="-15 0 285 120">
         <g transform='translate(100 20) rotate(0)'>
           <rect x="0" y="0" width="80" height="80" stroke='black' stroke-width='2' fill="var(--def-accent-color)" />
-          <text x="40" y="40" fill="black" text-anchor="middle" dominant-baseline="middle" font-size='20px'>2.0 kg</text>
+          <text x="40" y="40" fill="black" text-anchor="middle" dominant-baseline="middle" font-size='20px'>2.0 кг</text>
         </g>
         <use xlink:href="#vector" transform='translate(100 60) rotate(90)' />
-        <text x="35" y="53" fill="black">200 N</text>
+        <text x="35" y="53" fill="black">200 Н</text>
         <use xlink:href="#vector" transform='translate(180 80) rotate(-90)' />
-        <text x="200" y="73" fill="black">500 N</text>
+        <text x="200" y="73" fill="black">500 Н</text>
         <use xlink:href="#vector" transform='translate(180 40) rotate(-90)' />
-        <text x="200" y="33" fill="black">300 N</text>
+        <text x="200" y="33" fill="black">300 Н</text>
       </svg>
-      <strong>Example:</strong> Use the free body diagram to calculate the mass's acceleration.
+      <strong>Пример:</strong> Используйте чертеж свободного тела для расчета ускорения массы.
       <details>
-        <summary>solution</summary>
+        <summary>решение</summary>
         $$\sum F=ma$$
-        $$-200\,\mathrm{N}+300\,\mathrm{N}+500\,\mathrm{N}=ma$$
-        $$600\,\mathrm{N}=(2\,\mathrm{kg})a$$
-        $$300 \mathrm{\tfrac{m}{s^2}}=a$$
+        $$-200\,\mathrm{Н}+300\,\mathrm{Н}+500\,\mathrm{Н}=ma$$
+        $$600\,\mathrm{Н}=(2\,\mathrm{кг})a$$
+        $$300 \mathrm{\tfrac{м}{с^2}}=a$$
       </details>
     </div>
 
@@ -143,23 +143,22 @@
         </g> -->
         <rect x="64.5" y="-10" width="100" height="150px" stroke='black' stroke-width='4' fill="none" />
         <image xlink:href="themartian.jpg" x="65" y="-10" height="150px" />
-        <text x="116" y="100" fill="#fafada" text-anchor="middle" dominant-baseline="middle" font-size='15px' font-family="Lucida Console">0.09 kg</text>
+        <text x="116" y="100" fill="#fafada" text-anchor="middle" dominant-baseline="middle" font-size='15px' font-family="Lucida Console">0.09 кг</text>
         <!-- height="450px" width="684px" -->
 
         <line x1="0" y1="142" x2="225" y2="142" stroke="#000" stroke-width="3" />
         <use xlink:href="#vector" transform='translate(115 140) rotate(0)' />
-        <text x="125" y="187" fill="black">0.34 N</text>
+        <text x="125" y="187" fill="black">0.34 Н</text>
         <use xlink:href="#vector" transform='translate(115 -10) rotate(180)' />
         <text x="125" y="-47" fill="black">F= ? </text>
       </svg>
-      <strong>Example:</strong> The book <a href='https://www.amazon.com/Martian-Novel-Andy-Weir-ebook/dp/B00EMXBDMA'>The Martian</a> by Andy Weir (mass = 0.09 kg) is resting on a table (acceleration = zero). The force of gravity produces a downwards force of 0.34 N.
-      What force is required to keep the book at rest on the table?
+      <strong>Пример:</strong> книга Энди Вейра "Марсианин" (масса = 0.09 кг) лежит на столе (ускорение равно нулю). Сила тяжести направлена вниз и равна 0.34 Н. Какиая сила требуется, чтобы книга оставалась неподвижной на столе?
       <details>
-        <summary>solution</summary>
-        $$\sum F=ma$$ $$F_{N} + F_{g} = ma$$
-        $$F_{N} - 0.34\, \mathrm{N} = (0.09\, \mathrm{kg})(0)$$
-        $$F_{N} - 0.34\,\mathrm{N} = 0$$
-        $$F_{N} = 0.34 \, \mathrm{N}$$
+        <summary>решение</summary>
+        $$\sum F=ma$$ $$F_{н} + F_{гр} = ma$$
+        $$F_{н} - 0.34\, \mathrm{Н} = (0.09\, \mathrm{кг})(0)$$
+        $$F_{н} - 0.34\,\mathrm{Н} = 0$$
+        $$F_{н} = 0.34 \, \mathrm{Н}$$
       </details>
     </div>
 
@@ -181,27 +180,27 @@
         <use xlink:href="#vector" transform='translate(180 80) rotate(-90)' />
         <text x="210" y="73" fill="black">78 N</text>
       </svg>
-      <strong>Example:</strong> Use the free body diagram to calculate the acceleration for both the horizontal and the vertical.
+      <strong>Пример:</strong> Используйте чертеж тела в свободном полете, чтобы рассчитать ускорение как по горизонтали, так и по вертикали.
       <details>
-        <summary>solution</summary>
-        $$ \text{vertical}$$
+        <summary>решение</summary>
+        $$ \text{по вертикали}$$
         $$\sum F=ma$$
-        $$22 \, \mathrm{N} - 85 \, \mathrm{N} = (16 \, \mathrm{kg})a$$
-        $$-63 \, \mathrm{N} = (16 \, \mathrm{kg})a$$
-        $$-3.9 \, \mathrm{\tfrac{m}{s^2}} = a$$
+        $$22 \, \mathrm{Н} - 85 \, \mathrm{Н} = (16 \, \mathrm{кг})a$$
+        $$-63 \, \mathrm{Н} = (16 \, \mathrm{кг})a$$
+        $$-3.9 \, \mathrm{\tfrac{м}{с^2}} = a$$
 
-        <br> $$ \text{horizontal}$$
+        <br> $$ \text{по горизонтали}$$
         $$\sum F=ma$$
-        $$78 \, \mathrm{N}+55 \, \mathrm{N}-140 \, \mathrm{N} = (16 \, \mathrm{kg})a$$
-        $$-7 \, \mathrm{N} = (16 \, \mathrm{kg})a$$
-        $$-0.43 \, \mathrm{\tfrac{m}{s^2}} = a$$
+        $$78 \, \mathrm{Н}+55 \, \mathrm{Н}-140 \, \mathrm{Н} = (16 \, \mathrm{кг})a$$
+        $$-7 \, \mathrm{Н} = (16 \, \mathrm{кг})a$$
+        $$-0.43 \, \mathrm{\tfrac{м}{с^2}} = a$$
       </details>
     </div>
 
     <div class='example'>
-      <strong>Example:</strong> A red crate is falling, but a parachute is slowing its acceleration to only 2 m/s² down. The force of gravity is 833 N down. The parachute provides 663 N up. Draw a free body diagram and use it to find the mass of the crate.
+      <strong>Пример:</strong> Красный ящик падает, но парашют замедляет его ускорение всего до 2 м/с². Сила тяжести равна 833 Н. Парашют тянет вверх с силой 663 Н. Начертите схему и используйте ее, чтобы определить массу ящика.
       <details>
-        <summary>solution</summary>
+        <summary>решение</summary>
         <svg class='center' width="300" height="200">
           <!-- <rect x="0" y="100" width="300" height="110" style="fill:#ccc" /> -->
           <g transform='translate(100 60) rotate(0)'>
@@ -209,25 +208,25 @@
             <text x="40" y="40" fill="black" text-anchor="middle" dominant-baseline="middle" font-size='20px'>m = ?</text>
           </g>
           <use xlink:href="#vector" transform='translate(140 140) rotate(0)' />
-          <text x="150" y="187" fill="black">833 N</text>
+          <text x="150" y="187" fill="black">833 Н</text>
           <use xlink:href="#vector" transform='translate(140 60) rotate(180)' />
-          <text x="150" y="23" fill="black">663 N </text>
+          <text x="150" y="23" fill="black">663 Н </text>
         </svg>
         $$\sum F=ma$$ $$F_1+F_2=ma$$ $$-833+663 = m(2)$$
         $$\frac{-170}{2} = \frac{m(2)}{2}$$
-        $$-85 \, \mathrm{kg} = m$$
-        <p>A negative mass doesn't make sense. Where did we mess up?
-          <br>Oh, the acceleration is negative, because it points down.</p>
+        $$-85 \, \mathrm{кг} = m$$
+        <p>Отрицательная масса не может быть. Что же не так?
+          <br>Ускорение отрицательное, потому что оно направлено вниз.</p>
         $$\frac{-170}{-2} = \frac{m(-2)}{-2}$$
-        $$85 \, \mathrm{kg} = m$$
+        $$85 \, \mathrm{кг} = m$$
       </details>
     </div>
 
-    <h1 class='underlined'>The Force of gravity</h1>
+    <h1 class='underlined'>Сила притяжения</h1>
     <p>
-      <strong>Mass</strong> is a measure of an object's inertia. <strong>Mass</strong> also determines the strength of gravity. Because of gravity all objects are attracted to each other, but we mostly notice the attraction towards the Earth because it is so large and so close.
+        <strong>Масса</strong> - это мера инерции объекта. <strong>Масса</strong> также определяет силу притяжения. Из-за силы тяжести все объекты притягиваются друг к другу, но в основном мы замечаем притяжение к Земле, потому что она такая большая и нахдится близко.
     </p>
-    <p>There is a special word to describe the direction of gravity, down.</p>
+    <!-- idk how translate it <p>There is a special word to describe the direction of gravity, down.</p> -->
     <div class='definition' style="padding: 0px;">
       <br>
       <svg viewBox="-50 0 600 275" style="padding: 0px; margin-bottom: -25px;">
@@ -242,184 +241,183 @@
         <circle cx="250" cy="880" r="695" fill="var(--def-accent-color)" stroke="#000" stroke-width="2" />
       </svg>
       <div style="padding: 20px; background-color: var(--def-accent-color); border-radius: 1em;">
-        <h1>$$F_g=mg $$</h1> \(F_g\) = the force of gravity, weight [N, newtons, kg m/s²]
-        <em>vector</em>
-        <br>\(m\) = mass [kg]
-        <br>\(g\) = acceleration of gravity on Earth = 9.8 [m/s²]
-        <em>vector</em>
+        <h1>$$F_г=mg $$</h1> \(F_г\) = сила тяжести, вес [N, ньютоны, кг м/с²]
+        <em>вектор</em>
+        <br>\(m\) = масса [кг]
+        <br>\(g\) = ускорение силы тяжести на Земле = 9.8 [м/с²]
+        <em>вектор</em>
       </div>
     </div>
     <p>
-      The force of gravity depends only on the mass of the object because on the surface of the Earth
-      <strong>acceleration from gravity is the same for all objects</strong>. If you aren't on the surface of the Earth, there is a different way to calculate <a href="..\..\gravity\gravitation\index.html#universal-gravitation">gravity</a>.
+      Сила тяжести зависит только от массы объекта, потому что на поверхности Земли <strong>ускорение от силы тяжести одинаково для всех объектов</strong>. Если вы не находитесь на поверхности Земли, есть другой способ рассчитать <a href="..\..\gravity\gravitation\index.html#universal-gravitation">силу тяжести</a>.
     </p>
 
     <div class="example">
-      <strong>Question:</strong> Why do feathers fall slower than bricks?
+      <strong>Вопрос:</strong> Почему перья падают медленнее, чем кирпичи?
       <details>
-        <summary>solution</summary>
+        <summary>решение</summary>
         <p>
-          Air friction produces a force that opposes motion.
-          Feathers have a large surface area compared to their small mass so they have more air friction.
+            Трение воздуха создает силу, противодействующую движению.
+            Перья имеют большую площадь поверхности по сравнению с их небольшой массой, поэтому у них больше трения о воздух.
         </p>
       </details>
     </div>
 
     <div class='example'>
-      <p>
-        The acceleration of 9.8 m/s² on the surface of the Earth is just an approximation. The
-        <a href='https://en.wikipedia.org/wiki/Gravity_of_Earth'>gravity of Earth</a> changes a bit depending on where you are.</p>
+        <p>
+            Ускорение 9.8 м/с² на поверхности Земли - это всего лишь приблизительное значение. <a href='https://en.wikipedia.org/wiki/Gravity_of_Earth'>Гравитация Земли</a> немного меняется в зависимости от того, где вы находитесь.
+        </p>
       <details>
         <summary>
-          <strong>Table:</strong> Comparative gravities in various cities around the world</summary>
+          <strong>Таблица:</strong> Сравнительный вес в различных городах по всему миру</summary>
         <table style="text-align: left;">
           <tr>
-            <th>Location</th>
-            <th>Acceleration in m/s² </th>
-            <th>Acceleration in ft/s²</th>
+            <th>Местоположение</th>
+            <th>Ускорение in m/с² </th>
+            <th>Ускорение in фут/с²</th>
           </tr>
           <tr>
-            <td><a href="http://en.wikipedia.org/wiki/Amsterdam" class="extiw" title="wikipedia:Amsterdam">Amsterdam</a></td>
+            <td><a href="http://en.wikipedia.org/wiki/Amsterdam" class="extiw" title="wikipedia:Amsterdam">Амстердам</a></td>
             <td>9.813</td>
             <td> 32.19</td>
           </tr>
           <tr>
-            <td><a href="http://en.wikipedia.org/wiki/Athens" class="extiw" title="wikipedia:Athens">Athens</a></td>
+            <td><a href="http://en.wikipedia.org/wiki/Athens" class="extiw" title="wikipedia:Athens">Афины</a></td>
             <td>9.800</td>
             <td> 32.15</td>
           </tr>
           <tr>
-            <td><a href="http://en.wikipedia.org/wiki/Auckland" class="extiw" title="wikipedia:Auckland">Auckland</a></td>
+            <td><a href="http://en.wikipedia.org/wiki/Auckland" class="extiw" title="wikipedia:Auckland">Окленд</a></td>
             <td>9.799</td>
             <td> 32.15</td>
           </tr>
           <tr>
-            <td><a href="http://en.wikipedia.org/wiki/Bangkok" class="extiw" title="wikipedia:Bangkok">Bangkok</a></td>
+            <td><a href="http://en.wikipedia.org/wiki/Bangkok" class="extiw" title="wikipedia:Bangkok">Бангкок</a></td>
             <td>9.783</td>
             <td> 32.1</td>
           </tr>
           <tr>
-            <td><a href="http://en.wikipedia.org/wiki/Brussels" class="extiw" title="wikipedia:Brussels">Brussels</a></td>
+            <td><a href="http://en.wikipedia.org/wiki/Brussels" class="extiw" title="wikipedia:Brussels">Брюссель</a></td>
             <td>9.811</td>
             <td> 32.19</td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Buenos_Aires" class="extiw" title="wikipedia:Buenos Aires">Buenos Aires</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Buenos_Aires" class="extiw" title="wikipedia:Buenos Aires">Буэнос-Айрес</a> </td>
             <td>9.797 </td>
             <td> 32.14 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Calcutta" class="extiw" title="wikipedia:Calcutta">Calcutta</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Calcutta" class="extiw" title="wikipedia:Calcutta">Калькутта</a> </td>
             <td>9.788 </td>
             <td> 32.11 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Cape_Town" class="extiw" title="wikipedia:Cape Town">Cape Town</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Cape_Town" class="extiw" title="wikipedia:Cape Town">Кейптаун</a> </td>
             <td>9.796 </td>
             <td> 32.14 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Chicago" class="extiw" title="wikipedia:Chicago">Chicago</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Chicago" class="extiw" title="wikipedia:Chicago">Чикаго</a> </td>
             <td>9.803 </td>
             <td> 32.16 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Copenhagen" class="extiw" title="wikipedia:Copenhagen">Copenhagen</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Copenhagen" class="extiw" title="wikipedia:Copenhagen">Копенгаген</a> </td>
             <td>9.815 </td>
             <td> 32.2 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Frankfurt" class="extiw" title="wikipedia:Frankfurt">Frankfurt</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Frankfurt" class="extiw" title="wikipedia:Frankfurt">Франкфурт</a> </td>
             <td>9.810 </td>
             <td> 32.19 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Havana" class="extiw" title="wikipedia:Havana">Havana</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Havana" class="extiw" title="wikipedia:Havana">Гавана</a> </td>
             <td>9.788 </td>
             <td> 32.11 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Helsinki" class="extiw" title="wikipedia:Helsinki">Helsinki</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Helsinki" class="extiw" title="wikipedia:Helsinki">Хельсинки</a> </td>
             <td>9.819 </td>
             <td> 32.21 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Istanbul" class="extiw" title="wikipedia:Istanbul">Istanbul</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Istanbul" class="extiw" title="wikipedia:Istanbul">Стамбул</a> </td>
             <td>9.808 </td>
             <td> 32.18 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Jakarta" class="extiw" title="wikipedia:Jakarta">Jakarta</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Jakarta" class="extiw" title="wikipedia:Jakarta">Джакарта</a> </td>
             <td>9.781 </td>
             <td> 32.09 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Kuwait" class="extiw" title="wikipedia:Kuwait">Kuwait</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Kuwait" class="extiw" title="wikipedia:Kuwait">Кувейт</a> </td>
             <td>9.793 </td>
             <td> 32.13 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Lisbon" class="extiw" title="wikipedia:Lisbon">Lisbon</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Lisbon" class="extiw" title="wikipedia:Lisbon">Лиссабон</a> </td>
             <td>9.801 </td>
             <td> 32.16 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/London" class="extiw" title="wikipedia:London">London</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/London" class="extiw" title="wikipedia:London">Лондон</a> </td>
             <td>9.812 </td>
             <td> 32.19 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Los_Angeles" class="extiw" title="wikipedia:Los Angeles">Los Angeles</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Los_Angeles" class="extiw" title="wikipedia:Los Angeles">Лос-Анджелес</a> </td>
             <td>9.796 </td>
             <td> 32.14 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Madrid" class="extiw" title="wikipedia:Madrid">Madrid</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Madrid" class="extiw" title="wikipedia:Madrid">Мадрид</a> </td>
             <td>9.800 </td>
             <td> 32.15 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Manila" class="extiw" title="wikipedia:Manila">Manila</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Manila" class="extiw" title="wikipedia:Manila">Манила</a> </td>
             <td>9.784 </td>
             <td> 32.1 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Mexico_City" class="extiw" title="wikipedia:Mexico City">Mexico City</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Mexico_City" class="extiw" title="wikipedia:Mexico City">Мехико-Сити</a> </td>
             <td>9.779 </td>
             <td> 32.08 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Montr%C3%A9al" class="extiw" title="wikipedia:Montréal">Montréal</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Montr%C3%A9al" class="extiw" title="wikipedia:Montréal">Монреаль</a> </td>
             <td>9.789 </td>
             <td> 32.12 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/New_York_City" class="extiw" title="wikipedia:New York City">New York City</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/New_York_City" class="extiw" title="wikipedia:New York City">Город Нью-Йорк</a> </td>
             <td>9.802 </td>
             <td> 32.16 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Nicosia" class="extiw" title="wikipedia:Nicosia">Nicosia</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Nicosia" class="extiw" title="wikipedia:Nicosia">Никосия</a> </td>
             <td>9.797 </td>
             <td> 32.14 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Oslo" class="extiw" title="wikipedia:Oslo">Oslo</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Oslo" class="extiw" title="wikipedia:Oslo">Осло</a> </td>
             <td>9.819 </td>
             <td> 32.21 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Ottawa" class="extiw" title="wikipedia:Ottawa">Ottawa</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Ottawa" class="extiw" title="wikipedia:Ottawa">Оттава</a> </td>
             <td>9.806 </td>
             <td> 32.17 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Paris" class="extiw" title="wikipedia:Paris">Paris</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Paris" class="extiw" title="wikipedia:Paris">Париж</a> </td>
             <td>9.809 </td>
             <td> 32.18 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Rio_de_Janeiro" class="extiw" title="wikipedia:Rio de Janeiro">Rio de Janeiro</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Rio_de_Janeiro" class="extiw" title="wikipedia:Rio de Janeiro">Рио-де-Жанейро</a> </td>
             <td>9.788 </td>
             <td> 32.11 </td>
           </tr>
@@ -429,70 +427,70 @@
             <td> 32.16 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/San_Francisco" class="extiw" title="wikipedia:San Francisco">San Francisco</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/San_Francisco" class="extiw" title="wikipedia:San Francisco">SСан-Франциско</a> </td>
             <td>9.800 </td>
             <td> 32.15 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Singapore" class="extiw" title="wikipedia:Singapore">Singapore</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Singapore" class="extiw" title="wikipedia:Singapore">Сингапур</a> </td>
             <td>9.781 </td>
             <td> 32.09 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Skopje" class="extiw" title="wikipedia:Skopje">Skopje</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Skopje" class="extiw" title="wikipedia:Skopje">Скопье</a> </td>
             <td>9.804 </td>
             <td> 32.17 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Stockholm" class="extiw" title="wikipedia:Stockholm">Stockholm</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Stockholm" class="extiw" title="wikipedia:Stockholm">Стокгольм</a> </td>
             <td>9.818 </td>
             <td> 32.21 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Sydney" class="extiw" title="wikipedia:Sydney">Sydney</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Sydney" class="extiw" title="wikipedia:Sydney">Сидней</a> </td>
             <td>9.797 </td>
             <td> 32.14 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Taipei" class="extiw" title="wikipedia:Taipei">Taipei</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Taipei" class="extiw" title="wikipedia:Taipei">Тайбэй</a> </td>
             <td>9.790 </td>
             <td> 32.12 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Tokyo" class="extiw" title="wikipedia:Tokyo">Tokyo</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Tokyo" class="extiw" title="wikipedia:Tokyo">Токио</a> </td>
             <td>9.798 </td>
             <td> 32.15 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Vancouver" class="extiw" title="wikipedia:Vancouver">Vancouver</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Vancouver" class="extiw" title="wikipedia:Vancouver">Ванкувер</a> </td>
             <td>9.809 </td>
             <td> 32.18 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Washington,_D.C." class="extiw" title="wikipedia:Washington, D.C.">Washington, D.C.</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Washington,_D.C." class="extiw" title="wikipedia:Washington, D.C.">Вашингтон, округ Колумбия.</a> </td>
             <td>9.801 </td>
             <td> 32.16 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Wellington" class="extiw" title="wikipedia:Wellington">Wellington</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Wellington" class="extiw" title="wikipedia:Wellington">Веллингтон</a> </td>
             <td>9.803 </td>
             <td> 32.16 </td>
           </tr>
           <tr>
-            <td> <a href="http://en.wikipedia.org/wiki/Zurich" class="extiw" title="wikipedia:Zurich">Zurich</a> </td>
+            <td> <a href="http://en.wikipedia.org/wiki/Zurich" class="extiw" title="wikipedia:Zurich">Цюрих</a> </td>
             <td>9.807 </td>
             <td> 32.18 </td>
           </tr>
         </table>
       </details>
       <br>
-      <strong>Question:</strong> What factors might explain why the measured acceleration of gravity changes in different locations on the surface of Earth?
+      <strong>Вопрос:</strong> Какие факторы могут объяснить, почему измеренное ускорение свободного падения изменяется в разных местах на поверхности Земли?
       <details>
-        <summary>solution</summary>
+        <summary>решение</summary>
         <p>
-          <li>Gravity is slightly weaker at higher elevation because you are farther from the center of the Earth.</li>
+          <li>На большей высоте гравитация немного слабее, потому что вы находитесь дальше от центра Земли.</li>
           <br>
-          <li>Near the equator gravity feels weaker because the Earth's rotation adds a centrifugal force.</li>
+          <li>Вблизи экватора гравитация ощущается слабее, потому что вращение Земли создает центробежную силу.</li>
         </p>
       </details>
     </div>
@@ -500,10 +498,10 @@
       <a href="https://www.amazon.com/Three-Body-Problem-Cixin-Liu/dp/0765382032">
         <img class="book-cover" src="thethreebodyproblem.jpg" alt="The Three-Body Problem" width="150" height="237" />
       </a>
-      <strong>Example:</strong> The Three-Body Problem by Cixin Liu has a mass of 0.44 kg. What force of gravity does the book have?
+      <strong>Пример:</strong> Задача о трех телах, написанная Цысин Лю, имеет массу 0.44 кг. Какой силой притяжения обладает эта книга?
       <details>
-        <summary>solution</summary>
-        $$F_g=mg$$ $$F_g=(0.44 \, \mathrm{kg} )(9.8\, \mathrm{\tfrac{m}{s^2}})$$ $$F_g=4.3 \, \mathrm{N}$$
+        <summary>решение</summary>
+        $$F_г=mg$$ $$F_г=(0.44 \, \mathrm{кг} )(9.8\, \mathrm{\tfrac{м}{с^2}})$$ $$F_г=4.3 \, \mathrm{Н}$$
       </details>
     </div>
 
@@ -511,12 +509,12 @@
       <a href="https://www.amazon.com/Cats-Cradle-Novel-Kurt-Vonnegut/dp/038533348X">
         <img class="book-cover" src="catscradle.jpg" alt="Cat's Cradle" width="150" height="241" />
       </a>
-      <strong>Example:</strong> How much mass does the book Cat's Cradle by Kurt Vonnegut have if it feels a force of gravity of 1.8 N?
+      <strong>Пример:</strong> Какой массой обладает книга Курта Воннегута "Колыбель для кошки", если на нее действует сила тяжести 1.8 Н?
       <details>
-        <summary>solution</summary>
-        $$F_g=mg$$ $$\frac{F_g}{g}=m$$
-        $$\frac{1.8 \,\mathrm{N}}{9.8\, \mathrm{\tfrac{m}{s^2}}}=m$$
-        $$0.18 \, \mathrm{kg}=m$$
+        <summary>решение</summary>
+        $$F_г=mg$$ $$\frac{F_г}{g}=m$$
+        $$\frac{1.8 \,\mathrm{Н}}{9.8\, \mathrm{\tfrac{м}{с^2}}}=m$$
+        $$0.18 \, \mathrm{кг}=m$$
       </details>
     </div>
 
